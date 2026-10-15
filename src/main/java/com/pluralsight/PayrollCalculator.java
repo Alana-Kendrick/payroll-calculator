@@ -17,5 +17,7 @@ public class PayrollCalculator {
 
         float grossPay = hoursWorked * payRate;
         System.out.println("Hello, " + name + ". Your gross pay for this period is $" + grossPay + ".");
+
+        scanner.close();
     }
 }
